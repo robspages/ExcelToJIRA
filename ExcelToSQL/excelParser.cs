@@ -30,11 +30,11 @@ namespace ExcelToSQL
                     {
                          jira.addNewIssue(issue);
                     }
-                    //else
-                    //{
-
+                    else
+                    {
+                        String existingKey = "";//existingIssues.ToArray<RemoteIssue>[0].key;
                     //    jira.updateIssue(issue);
-                    //}
+                    }
                    
                 }
             }
